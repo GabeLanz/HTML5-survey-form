@@ -1,0 +1,79 @@
+<!Doctype html>
+<html>
+
+   <head>
+      <meta charset= "utf-8">
+      <title>Feedback Form</title>
+   </head>
+
+   <body>
+      <h1>Feedback Form</h1>
+    
+      <p><strong>Please fill out this form to help us make our campus even better!</strong></p>
+      
+
+
+      <form method= "post" action= "thanks.html">
+         <input type= "hidden" name= "redirect"
+            value= "www.deitel.com">
+       
+         <p><label>Name:
+               <input name= "name" type= "text" size= "25" maxlength= "40">
+            </label></p>
+
+         <P><label>Email:
+               <input name= "email" type= "text" size= "25" maxlength= "40">
+            </label></p>
+
+         <p>
+            <strong>What are the things you liked about your visit?</strong><br>
+
+            <label>Campus
+               <input name= "thingsliked" type= "checkbox" value="Campus"></label>
+
+            <label>Students
+               <input name= "thingsliked" type= "checkbox" value="Students"></label>
+
+            <label>Location
+               <input name= "thingsliked" type= "checkbox" value="Location"></label>
+
+            <label>Atmosphere
+               <input name= "thingsliked" type= "checkbox" value="Atmosphere"></label>
+
+            <label>Dorm Rooms
+               <input name= "thingsliked" type= "checkbox" value="Dorm Rooms"></label>
+
+            <label>Sports
+               <input name= "thingsliked" type= "checkbox" value="Sports"></label>
+         </p>
+
+         <p>
+            <strong>How did you become interested in attending here?</strong><br>
+            
+            <label>Friends
+               <input name= "howbecameinterested" type= "radio" value="Friends"></label>
+
+            <label>Television
+               <input name= "howbecameinterested" type= "radio" value="Television"></label>
+
+            <label>Internet
+               <input name= "howbecameinterested" type= "radio" value="Internet"></label> 
+
+            <label>Other
+               <input name= "howbecameinterested" type= "radio" value="Other"></label>
+         </p>
+
+         <p><label><strong>Any additional comments?</strong><br>
+            <textarea name= "comments"
+               rows="4" cols= "36">Enter comments here.</textarea>
+         </label></p>
+
+         <p>
+            <input type= "submit" value= "Submit">
+            <input type= "reset" value= "Clear">
+         </p>
+      </form>
+   </body>
+</html>
+            
+   
